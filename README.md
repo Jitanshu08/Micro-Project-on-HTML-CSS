@@ -46,7 +46,7 @@ To use this project:
 
 ## File Structure
 
-- `Micro-project.html`: Contains the HTML structure and content.
+- `index.html`: Contains the HTML structure and content.
 - `Micro-project.css`: Includes CSS styles for the HTML layout.
 
 ## Additional Notes
