@@ -7,6 +7,7 @@ This micro-project demonstrates a simple HTML and CSS layout featuring responsiv
 The project consists of two main sections:
 
 - **Upper Box**:
+
   - An inspiring design section that showcases a compelling message along with a registration form.
   - The upper box utilizes a background color defined using CSS variables (`--theme-color`).
 
@@ -17,9 +18,11 @@ The project consists of two main sections:
 ## Features
 
 - **Google Fonts Integration**:
+
   - The project imports the 'Roboto' font family from Google Fonts using the `@import` rule in CSS.
 
 - **Responsive Design**:
+
   - The layout is designed to be responsive and adapts to different screen sizes using percentage-based dimensions and flexbox/grid layout.
 
 - **Interactive Button**:
@@ -30,6 +33,7 @@ The project consists of two main sections:
 To use this project:
 
 1. Clone the repository to your local machine:
+
    ```bash
    git clone https://github.com/Jitanshu08/Micro-Project-on-HTML-CSS.git
    ```
