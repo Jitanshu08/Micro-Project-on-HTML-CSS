@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"); /*fetching fonts from google*/
+
+body {
+  font-family: "inter", sans-serif;
+  font-style: git ;
+}
+
+:root {
+  --theme-color: rgba(255, 205, 158, 1);
+  --secondary-color: rgba(40, 40, 40, 1);
+}
+
+.upper-box {
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  left: 0%;
+  top: 0%;
+  margin: auto;
+  background: var(--theme-color);
+}
+.upper-content {
+  position: absolute;
+  top: 9%;
+  width: 40%;
+  left: 10%;
+
+  display: flex;
+  flex-direction: column;
+}
+/* An inspiring design delivered .. */
+#heading-1 {
+  position: relative;
+  margin-bottom: 1px;
+
+  font-size: 36px;
+  color: #282828;
+}
+/* Our team scouts the internet for .. */
+#para-1 {
+  position: relative;
+  width: 80%;
+  margin-bottom: 5px;
+
+  font-size: 20px;
+
+  color: #484848;
+}
+
+/*Show me how it looks*/
+#h2 {
+  position: relative;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+/*Form*/
+.form {
+  position: relative;
+  margin-top: 13px;
+}
+#email-input {
+  padding: 10px;
+  margin-right: 1%;
+  border-radius: 6px;
+
+  font-size: large;
+  font-weight: 600;
+  color: #888888;
+  border: 3px solid #000000;
+}
+#register-button {
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 6px;
+
+  font-size: large;
+  font-weight: 600;
+  color: #ffffff;
+  background: #282828;
+  transition: opacity 0.3s ease;
+}
+#register-button:hover {
+  opacity: 0.7;
+}
+#register-button:active {
+  opacity: 1;
+}
+
+/*Free no..*/
+#span1 {
+  margin: 23px;
+  color: #ffffff;
+}
+
+.lower-box {
+  position: absolute;
+  width: 100vw;
+  height: 30vh;
+  top: 70%;
+  left: 0%;
+  background: var(--secondary-color);
+}
+.lower-content {
+  /*will use grid methoda to get 2 columns*/
+  position: relative;
+  margin: 3%;
+  width: 80%;
+  left: 10%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70%;
+}
+
+.left-aligned,
+.right-aligned {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.left-aligned span,
+.right-aligned span {
+  margin-bottom: 8px;
+}
+
+.right-aligned span {
+  text-align: right;
+}
+
+.blank-space {
+  height: 20px;
+}
